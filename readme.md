@@ -1,18 +1,17 @@
-## Criar app single-spa
+## Create single-spa app
 
 - npm install create-single-spa
 - npm run create 
 
-## Projetos Typescript
-- ao configurar lite-server para renderizar build, deverá configurar o cors como true
+## Typescript projects
+- when configuring lite-server to render build, should set cors to true
 
-### Rodando local
+### Running local
 
-Pimeiro inicie o root
+First start root
 
 - `npm run start:root`
 
-Inicie o plan-details
+Start plan-details
 
 - `npm run start:plan-details`
-
