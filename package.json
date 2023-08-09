@@ -1,0 +1,24 @@
+{
+  "name": "vivo-app-container",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "create": "create-single-spa",
+    "create:react": "create-single-spa --framework react",
+    "start:root": "npm start --workspace root",
+    "build:root": "npm run build --workspace root",
+    "dev:plan-details": "npm start --workspace plan-details",
+    "build:plan-details": "npm run build --workspace plan-details",
+    "dev:root": "npm run develop:node --workspace root",
+    "dev:teste": "npm run start --workspace teste",
+    "dev:cdn": "npm run dev --workspace cdn"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "root",
+    "plan-details",
+    "cdn",
+    "teste"
+  ]
+}

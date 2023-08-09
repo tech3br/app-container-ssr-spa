@@ -1,0 +1,11 @@
+{
+    "imports": {
+        "@vivo-app-container/root-config": "http://localhost:9876/vivo-app-container-root-config.js",
+        "@vivo-app-container/root-config/": "http://localhost:9876/",
+        "@vivo-app-container/teste": "http://localhost:8080/teste-root-config.js",
+        "@vivo-app-container/teste/": "http://localhost:8080/",
+        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.5.3/lib/system/single-spa.min.js",
+        "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js",
+        "react": "https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.production.min.js"
+    }
+}
